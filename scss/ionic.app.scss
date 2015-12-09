@@ -1,0 +1,76 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+.pane, .view{
+  background-color:#2f292b !important;
+}
+
+.logo{
+  width:50%;
+  height:100px;
+  margin:auto;
+  margin-top:10px;
+  text-align:center;
+  margin-bottom:-15px;
+  /*background-color:red;*/
+}
+
+.logo_svg{
+  width:110px;
+}
+
+.bt{
+  cursor:pointer;
+  background-color:#a5a6a9;
+}
+
+.bt:hover{
+  opacity:0.9;
+}
+
+table{
+  border-collapse:collapse;
+  width:100%;
+}
+
+td{
+  border:20px solid rgba(0,0,0,0);
+  width:20%;
+}
+
+.clear{clear:both;}
+.right{float:right;}
+.left{float:left;}
+
+.bt-logo-2{height:150px;}
+.bt-logo-4{height:200px;}
+
+.bt-txt{
+  background-color:#dfe0e2;
+  width:100%;
+  display: block;
+  font-family: 'Helvetica Neue';
+  padding-left:10px;
+}
+
+
